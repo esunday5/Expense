@@ -1,0 +1,208 @@
+2024-11-06 12:26:36,941 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-06 12:26:37,335 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.231:5000
+2024-11-06 12:26:37,335 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-06 12:26:37,393 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 12:26:45,026 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-06 12:26:45,041 - werkzeug - WARNING -  * Debugger is active!
+2024-11-06 12:26:45,091 - werkzeug - INFO -  * Debugger PIN: 350-243-250
+2024-11-06 12:27:05,041 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2024 12:27:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-06 12:27:06,553 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2024 12:27:06] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-06 12:27:06,566 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2024 12:27:06] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-06 12:27:07,049 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2024 12:27:07] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=tcDg0MgGnf1jqeI1xQZv HTTP/1.1" 200 -
+2024-11-06 12:27:07,095 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2024 12:27:07] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-06 12:27:19,576 - werkzeug - INFO - 192.168.0.231 - - [06/Nov/2024 12:27:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-06 12:27:19,641 - werkzeug - INFO - 192.168.0.231 - - [06/Nov/2024 12:27:19] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-06 12:27:19,642 - werkzeug - INFO - 192.168.0.231 - - [06/Nov/2024 12:27:19] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-06 12:27:20,472 - werkzeug - INFO - 192.168.0.231 - - [06/Nov/2024 12:27:20] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-06 12:32:17,134 - werkzeug - INFO -  * Detected change in 'C:\\Users\\IT\\PycharmProjects\\ekondo_expense_mgt\\routes.py', reloading
+2024-11-06 12:32:18,528 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 15:41:47,080 - app - ERROR - Error creating database tables: cannot import name 'Notifications' from 'models' (C:\Users\IT\PycharmProjects\ekondo_expense_mgt\models.py)
+2024-11-06 15:41:47,442 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.231:5000
+2024-11-06 15:41:47,442 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-06 15:41:47,464 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 15:41:51,968 - app - ERROR - Error creating database tables: cannot import name 'Notifications' from 'models' (C:\Users\IT\PycharmProjects\ekondo_expense_mgt\models.py)
+2024-11-06 15:41:51,984 - werkzeug - WARNING -  * Debugger is active!
+2024-11-06 15:41:52,028 - werkzeug - INFO -  * Debugger PIN: 350-243-250
+2024-11-06 15:42:13,971 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2024 15:42:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-06 15:42:14,992 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2024 15:42:14] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 15:42:15,005 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2024 15:42:15] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 15:42:15,783 - werkzeug - INFO - 127.0.0.1 - - [06/Nov/2024 15:42:15] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=3MNQOtnlzcL3UwZh1MS9 HTTP/1.1" 200 -
+2024-11-06 15:47:09,830 - werkzeug - INFO -  * Detected change in 'C:\\Users\\IT\\PycharmProjects\\ekondo_expense_mgt\\app.py', reloading
+2024-11-06 15:47:10,926 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 15:52:42,196 - app - ERROR - Error creating database tables: cannot import name 'Notifications' from 'models' (C:\Users\IT\PycharmProjects\ekondo_expense_mgt\models.py)
+2024-11-06 15:52:42,415 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.231:5000
+2024-11-06 15:52:42,415 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-06 15:52:42,426 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 15:52:45,542 - app - ERROR - Error creating database tables: cannot import name 'Notifications' from 'models' (C:\Users\IT\PycharmProjects\ekondo_expense_mgt\models.py)
+2024-11-06 15:52:45,560 - werkzeug - WARNING -  * Debugger is active!
+2024-11-06 15:52:45,567 - werkzeug - INFO -  * Debugger PIN: 350-243-250
+2024-11-06 16:00:19,806 - werkzeug - INFO -  * Detected change in 'C:\\Users\\IT\\PycharmProjects\\ekondo_expense_mgt\\routes.py', reloading
+2024-11-06 16:00:20,354 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 16:00:22,578 - app - ERROR - Error creating database tables: cannot import name 'Notifications' from 'models' (C:\Users\IT\PycharmProjects\ekondo_expense_mgt\models.py)
+2024-11-06 16:00:22,591 - werkzeug - WARNING -  * Debugger is active!
+2024-11-06 16:00:22,595 - werkzeug - INFO -  * Debugger PIN: 350-243-250
+2024-11-06 16:03:27,391 - werkzeug - INFO -  * Detected change in 'C:\\Users\\IT\\PycharmProjects\\ekondo_expense_mgt\\app.py', reloading
+2024-11-06 16:03:27,990 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 16:03:47,594 - app - ERROR - Error creating database tables: cannot import name 'Transactions' from 'models' (C:\Users\IT\PycharmProjects\ekondo_expense_mgt\models.py)
+2024-11-06 16:03:47,635 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.231:5000
+2024-11-06 16:03:47,635 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-06 16:03:47,638 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 16:03:51,290 - app - ERROR - Error creating database tables: cannot import name 'Transactions' from 'models' (C:\Users\IT\PycharmProjects\ekondo_expense_mgt\models.py)
+2024-11-06 16:03:51,309 - werkzeug - WARNING -  * Debugger is active!
+2024-11-06 16:03:51,316 - werkzeug - INFO -  * Debugger PIN: 350-243-250
+2024-11-06 16:04:11,690 - werkzeug - INFO -  * Detected change in 'C:\\Users\\IT\\PycharmProjects\\ekondo_expense_mgt\\app.py', reloading
+2024-11-06 16:04:12,240 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 16:04:15,391 - app - ERROR - Error creating database tables: cannot import name 'Transaction' from 'models' (C:\Users\IT\PycharmProjects\ekondo_expense_mgt\models.py)
+2024-11-06 16:04:15,406 - werkzeug - WARNING -  * Debugger is active!
+2024-11-06 16:04:15,413 - werkzeug - INFO -  * Debugger PIN: 350-243-250
+2024-11-06 16:04:24,803 - app - ERROR - Error creating database tables: cannot import name 'Transaction' from 'models' (C:\Users\IT\PycharmProjects\ekondo_expense_mgt\models.py)
+2024-11-06 16:04:24,840 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.231:5000
+2024-11-06 16:04:24,840 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-06 16:04:24,844 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 16:04:28,278 - app - ERROR - Error creating database tables: cannot import name 'Transaction' from 'models' (C:\Users\IT\PycharmProjects\ekondo_expense_mgt\models.py)
+2024-11-06 16:04:28,304 - werkzeug - WARNING -  * Debugger is active!
+2024-11-06 16:04:28,309 - werkzeug - INFO -  * Debugger PIN: 350-243-250
+2024-11-06 16:06:59,954 - werkzeug - INFO -  * Detected change in 'C:\\Users\\IT\\PycharmProjects\\ekondo_expense_mgt\\models.py', reloading
+2024-11-06 16:07:00,858 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 16:07:09,195 - app - ERROR - Error creating database tables: cannot import name 'RequestHistory' from 'models' (C:\Users\IT\PycharmProjects\ekondo_expense_mgt\models.py)
+2024-11-06 16:07:09,408 - werkzeug - WARNING -  * Debugger is active!
+2024-11-06 16:07:09,414 - werkzeug - INFO -  * Debugger PIN: 350-243-250
+2024-11-06 16:07:52,056 - werkzeug - INFO -  * Detected change in 'C:\\Users\\IT\\PycharmProjects\\ekondo_expense_mgt\\models.py', reloading
+2024-11-06 16:07:52,329 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 16:08:54,931 - app - ERROR - Error creating database tables: cannot import name 'RequestHistory' from 'models' (C:\Users\IT\PycharmProjects\ekondo_expense_mgt\models.py)
+2024-11-06 16:08:54,981 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.231:5000
+2024-11-06 16:08:54,981 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-06 16:08:54,984 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 16:08:59,091 - app - ERROR - Error creating database tables: cannot import name 'RequestHistory' from 'models' (C:\Users\IT\PycharmProjects\ekondo_expense_mgt\models.py)
+2024-11-06 16:08:59,121 - werkzeug - WARNING -  * Debugger is active!
+2024-11-06 16:08:59,125 - werkzeug - INFO -  * Debugger PIN: 350-243-250
+2024-11-06 16:20:02,789 - app - ERROR - Error creating database tables: cannot import name 'ExpenseApprovalWorkflow' from 'models' (C:\Users\IT\PycharmProjects\ekondo_expense_mgt\models.py)
+2024-11-06 16:20:03,164 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.231:5000
+2024-11-06 16:20:03,164 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-06 16:20:03,175 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 16:20:06,420 - app - ERROR - Error creating database tables: cannot import name 'ExpenseApprovalWorkflow' from 'models' (C:\Users\IT\PycharmProjects\ekondo_expense_mgt\models.py)
+2024-11-06 16:20:06,444 - werkzeug - WARNING -  * Debugger is active!
+2024-11-06 16:20:06,448 - werkzeug - INFO -  * Debugger PIN: 350-243-250
+2024-11-06 16:26:49,371 - werkzeug - INFO -  * Detected change in 'C:\\Users\\IT\\PycharmProjects\\ekondo_expense_mgt\\models.py', reloading
+2024-11-06 16:26:50,896 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 16:27:30,180 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-06 16:27:30,394 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.231:5000
+2024-11-06 16:27:30,395 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-06 16:27:30,414 - werkzeug - INFO -  * Restarting with stat
+2024-11-06 16:27:37,381 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-06 16:27:37,429 - werkzeug - WARNING -  * Debugger is active!
+2024-11-06 16:27:37,433 - werkzeug - INFO -  * Debugger PIN: 350-243-250
+2024-11-08 15:30:28,628 - werkzeug - INFO -  * Detected change in 'C:\\Users\\IT\\PycharmProjects\\ekondo_expense_mgt\\app.py', reloading
+2024-11-08 15:30:53,486 - werkzeug - INFO -  * Restarting with stat
+2024-11-15 15:35:07,300 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-15 15:35:07,481 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.138:5000
+2024-11-15 15:35:07,481 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-15 15:35:07,493 - werkzeug - INFO -  * Restarting with stat
+2024-11-15 15:35:25,456 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-15 15:35:25,540 - werkzeug - WARNING -  * Debugger is active!
+2024-11-15 15:35:25,556 - werkzeug - INFO -  * Debugger PIN: 350-243-250
+2024-11-15 15:35:30,166 - werkzeug - INFO - 192.168.0.138 - - [15/Nov/2024 15:35:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-15 15:35:30,503 - werkzeug - INFO - 192.168.0.138 - - [15/Nov/2024 15:35:30] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-15 15:35:30,527 - werkzeug - INFO - 192.168.0.138 - - [15/Nov/2024 15:35:30] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-15 15:35:31,017 - werkzeug - INFO - 192.168.0.138 - - [15/Nov/2024 15:35:31] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-15 15:36:05,085 - werkzeug - INFO -  * Detected change in 'C:\\Users\\IT\\PycharmProjects\\ekondo_expense_mgt\\app.py', reloading
+2024-11-15 15:36:06,106 - werkzeug - INFO -  * Restarting with stat
+2024-11-22 14:16:25,314 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-22 14:16:25,664 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.138:5000
+2024-11-22 14:16:25,666 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-22 14:16:25,688 - werkzeug - INFO -  * Restarting with stat
+2024-11-22 14:16:35,168 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-22 14:16:35,187 - werkzeug - WARNING -  * Debugger is active!
+2024-11-22 14:16:35,280 - werkzeug - INFO -  * Debugger PIN: 512-110-243
+2024-11-22 14:17:01,652 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2024 14:17:01] "GET / HTTP/1.1" 200 -
+2024-11-22 14:17:03,432 - root - WARNING - Page not found: /favicon.ico
+2024-11-22 14:17:03,434 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2024 14:17:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-22 14:22:11,980 - werkzeug - INFO -  * Detected change in 'c:\\Users\\IT\\PycharmProjects\\ekondo_expense_mgt\\app.py', reloading
+2024-11-22 14:22:12,237 - werkzeug - INFO -  * Restarting with stat
+2024-11-22 14:22:18,323 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-22 14:22:18,333 - werkzeug - WARNING -  * Debugger is active!
+2024-11-22 14:22:18,340 - werkzeug - INFO -  * Debugger PIN: 512-110-243
+2024-11-22 14:22:42,670 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-22 14:22:42,689 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.138:5000
+2024-11-22 14:22:42,690 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-22 14:22:42,692 - werkzeug - INFO -  * Restarting with stat
+2024-11-22 14:22:48,704 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-22 14:22:48,712 - werkzeug - WARNING -  * Debugger is active!
+2024-11-22 14:22:48,720 - werkzeug - INFO -  * Debugger PIN: 512-110-243
+2024-11-22 14:22:54,172 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2024 14:22:54] "GET / HTTP/1.1" 200 -
+2024-11-22 14:51:39,827 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-22 14:51:40,385 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.138:5000
+2024-11-22 14:51:40,392 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-22 14:51:40,430 - werkzeug - INFO -  * Restarting with stat
+2024-11-22 14:51:49,064 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-22 14:51:49,081 - werkzeug - WARNING -  * Debugger is active!
+2024-11-22 14:51:49,106 - werkzeug - INFO -  * Debugger PIN: 512-110-243
+2024-11-22 15:06:17,364 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-22 15:06:17,960 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.138:5000
+2024-11-22 15:06:17,961 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-22 15:06:17,982 - werkzeug - INFO -  * Restarting with stat
+2024-11-22 15:06:23,960 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-22 15:06:23,984 - werkzeug - WARNING -  * Debugger is active!
+2024-11-22 15:06:24,004 - werkzeug - INFO -  * Debugger PIN: 512-110-243
+2024-11-22 15:54:35,524 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-22 15:54:35,720 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.138:5000
+2024-11-22 15:54:35,721 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-22 15:54:35,746 - werkzeug - INFO -  * Restarting with stat
