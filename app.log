@@ -206,3 +206,16 @@
  * Running on http://192.168.0.138:5000
 2024-11-22 15:54:35,721 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
 2024-11-22 15:54:35,746 - werkzeug - INFO -  * Restarting with stat
+2024-11-22 16:20:52,551 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-22 16:20:54,324 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.138:5000
+2024-11-22 16:20:54,327 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-22 16:20:54,703 - werkzeug - INFO -  * Restarting with stat
+2024-11-22 16:21:01,371 - app - ERROR - Error creating database tables: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-11-22 16:21:01,389 - werkzeug - WARNING -  * Debugger is active!
+2024-11-22 16:21:01,448 - werkzeug - INFO -  * Debugger PIN: 512-110-243
+2024-11-22 16:21:18,296 - werkzeug - INFO - 127.0.0.1 - - [22/Nov/2024 16:21:18] "GET / HTTP/1.1" 200 -
