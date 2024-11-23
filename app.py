@@ -128,4 +128,5 @@ load_dotenv()
 
 if __name__ == '__main__':
     app = create_app()  # Create app instance
-    app.run(host='0.0.0.0', port=5000, debug=True)  # Set debug=False in production
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=5000, debug=True) # Set debug=False in production
