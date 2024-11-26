@@ -39,7 +39,7 @@ def create_app():
     # Security Headers
     Talisman(app)  # Protect against common vulnerabilities
 
-    # Initialize Flask-Limiter (without Redis storage)
+    # Initialize Flask-Limiter (with Redis storage)
     limiter.init_app(app)  # No Redis storage used
 
     # Initialize extensions with the app
@@ -73,6 +73,12 @@ def create_app():
     def get_data():
         """API route to send data to the Next.js frontend"""
         return jsonify({"message": "Hello from Flask!"})
+
+    # Example route with rate limiting (inside create_app)
+    @app.route("/")
+    @limiter.limit("5 per minute")  # Example: Rate limit of 5 requests per minute
+    def index():
+        return "Hello, Flask-Limiter is configured with Redis!"
 
     # Create the database tables if they don't exist
     with app.app_context():
